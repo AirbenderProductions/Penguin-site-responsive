@@ -1,0 +1,171 @@
+
+.leftNav a:hover {
+  display:block;
+  font-size: 1.6em;
+  color: #f1f1f1;
+  line-height: 2em;
+  
+}
+
+.header {
+  font-size: 1.6em;
+  padding-top: 4px;
+text-align: center;
+  font-weight: 700;
+  background-color: rgb(207, 106, 106);
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex: 10;
+    height: 16%;
+
+}
+
+.header span:hover {
+  color: white;
+}
+
+.image {
+  width: 100%;
+  height: 100%;    
+}
+
+.image img {
+  -webkit-transition: all .25s ease; 
+  -moz-transition: all .25s ease; 
+  -ms-transition: all .25s ease; 
+  -o-transition: all .25s ease; 
+  transition: all .25s ease;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.image:hover img {
+  -webkit-transform:scale(2); 
+  -moz-transform:scale(2); 
+  -ms-transform:scale(2); 
+  -o-transform:scale(2); 
+   transform:scale(2);
+}
+
+.image:active img {
+  -webkit-transform:scale(.65); 
+  -moz-transform:scale(.65); 
+  -ms-transform:scale(.65); 
+  -o-transform:scale(.65); 
+   transform:scale(.65);
+}
+
+ .leftNav
+ {
+   justify-content: center;
+   background-color: rgb(8, 45, 146);
+   flex: 7;
+   flex-direction: row;
+   padding: 1em;
+    line-height: 2em;
+}  
+
+.leftNav a 
+ {
+   color:fuchsia;
+ }
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+    background-image: url('../penguin.jpg');
+    background-repeat: no-repeat;
+}
+
+.container-0 {
+    display: block;
+    background-color: rgb(207, 106, 106);
+    padding: 8px;
+    flex: 2;
+}
+
+@media(min-width:468px){
+    .container-1{
+      display:flex;
+
+    }
+
+    .container-1 h2 {
+      text-align: center;
+    }
+
+    .container-1 h2:hover {
+      text-align: center;
+      color: rgb(84, 173, 118);
+    }
+
+    .container-2 h2:hover {
+     
+      color: white;
+    }
+    
+    .container-2{
+      display:flex;  
+      justify-content:space-between;
+     
+    }
+  }
+  
+  
+  .container-1 div, .container-2 div, .container-3 div{
+    border:1px #ccc solid;
+    background-color: rgb(84, 173, 118);
+    padding:10px;
+    border: 2px dotted black;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.3em;
+  }
+  
+  .box-1{
+    background-image: url('../science.jpg');
+    background-size: cover;
+    flex:1;
+    order:1;
+  }
+  
+  .box-2{
+    background-image: url('../thepenguin.jpg');
+    background-size: cover;
+    flex:1;
+    order:2;
+    color: rgb(123, 80, 241);
+    text-shadow: 1px 1px black;
+  }
+  
+  .box-3{
+     background-image: url('../haha.jpg'); 
+    background-size: cover; 
+    flex:1;
+    order:3;
+  }
+  
+  .container-2-box{ 
+    flex-basis: 100%;  
+  }
+  .container-2-box h2 {
+    text-align: center;
+  }
+
+  .penguin {
+   max-width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    background-color: rgb(207, 106, 106);
+    opacity: 80%;
+    font-size: 2em;
+  }
+
+   h2 {
+    font-size: 2em;
+  } 
